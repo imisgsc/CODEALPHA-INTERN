@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery and Slideshow</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <section class="gallery">
+        <h1>Image Gallery</h1>
+        <div class="thumbnails">
+            <img src="assets/download.jpeg" alt="Thumbnail 1" onclick="showImage(this)">
+            <img src="assets/download.jpeg" alt="Thumbnail 2" onclick="showImage(this)">
+            <img src="assets/download.jpeg" alt="Thumbnail 3" onclick="showImage(this)">
+        </div>
+        <div class="full-image" id="fullImageContainer">
+            <span onclick="closeImage()" id="closeBtn">&times;</span>
+            <img id="fullImage" src="">
+        </div>
+    </section>
+
+    <section class="slideshow">
+        <h1>Image Slideshow</h1>
+        <div class="slides">
+            <div class="slide fade">
+                <img src="assets/download.jpeg" alt="Slide 1">
+            </div>
+            <div class="slide fade">
+                <img src="assets/download (1).jpeg" alt="Slide 2">
+            </div>
+            <div class="slide fade">
+                <img src="assets/download (2).jpeg" alt="Slide 3">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
