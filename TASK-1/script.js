@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentIndex = 0;
 
     const updateGallery = () => {
+        console.log('Updating gallery. Current index:', currentIndex);
         images.forEach((image, index) => {
             image.classList.remove('active');
             if (index === currentIndex) {
@@ -14,11 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     prevButton.addEventListener('click', () => {
+        console.log('Previous button clicked');
         currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
         updateGallery();
     });
 
     nextButton.addEventListener('click', () => {
+        console.log('Next button clicked');
         currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
         updateGallery();
     });
