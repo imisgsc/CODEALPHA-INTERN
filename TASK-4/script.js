@@ -14,20 +14,8 @@ const songs = [
     {
         title: 'Song One',
         artist: 'Artist One',
-        src: 'path_to_song_one.mp3',
-        cover: 'path_to_image_one.jpg'
-    },
-    {
-        title: 'Song Two',
-        artist: 'Artist Two',
-        src: 'path_to_song_two.mp3',
-        cover: 'path_to_image_two.jpg'
-    },
-    {
-        title: 'Song Three',
-        artist: 'Artist Three',
-        src: 'path_to_song_three.mp3',
-        cover: 'path_to_image_three.jpg'
+        src: 'C:\\Users\\simig\\OneDrive\\Documents\\GIT\\CODEALPHA-INTERN\\TASK-4\\assets\\song1.mp3',
+        cover: 'C:\\Users\\simig\\OneDrive\\Documents\\GIT\\CODEALPHA-INTERN\\TASK-4\\assets\\song1.jpeg'
     }
 ];
 
